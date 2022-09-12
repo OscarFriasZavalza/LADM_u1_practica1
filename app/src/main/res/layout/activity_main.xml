@@ -22,10 +22,9 @@
         >
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/logoempresa"
-            />
+            android:layout_width="202dp"
+            android:layout_height="190dp"
+            android:src="@drawable/logocirculo" />
 
         <EditText
             android:layout_marginTop="20dp"
