@@ -18,18 +18,18 @@ class MainActivity6 : AppCompatActivity() {
         }
 
         binding.platofuerte.setOnClickListener {
-            var activityEntrada=Intent(this,MainActivity2::class.java)
-            startActivity(activityEntrada)
+            var activityPlatoFuerte=Intent(this,MainActivity2::class.java)
+            startActivity(activityPlatoFuerte)
         }
 
         binding.postre.setOnClickListener {
-            var activityEntrada=Intent(this,MainActivity2::class.java)
-            startActivity(activityEntrada)
+            var activityPostre=Intent(this,MainActivity4::class.java)
+            startActivity(activityPostre)
         }
 
         binding.bebidas.setOnClickListener {
-            var activityEntrada=Intent(this,MainActivity2::class.java)
-            startActivity(activityEntrada)
+            var activityBebidas=Intent(this,MainActivity5::class.java)
+            startActivity(activityBebidas)
         }
     }
 }
