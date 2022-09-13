@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity5">
 
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:src="@drawable/menuentrada3"/>
+        android:src="@drawable/menubebidad"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,13 +23,13 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/entrada1" />
+            android:src="@drawable/bebida1" />
 
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/entrada2" />
+            android:src="@drawable/bebida2" />
 
     </LinearLayout>
 
@@ -43,12 +43,12 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/entrada3" />
+            android:src="@drawable/bebida3" />
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/entrada4" />
+            android:src="@drawable/bebida4" />
 
     </LinearLayout>
 
@@ -62,12 +62,12 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/entrada5" />
+            android:src="@drawable/bebida5" />
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/entrada6" />
+            android:src="@drawable/bebida6" />
 
     </LinearLayout>
 
@@ -81,12 +81,12 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/entrada7" />
+            android:src="@drawable/bebida7" />
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/entrada8" />
+            android:src="@drawable/bebida8" />
 
     </LinearLayout>
 
