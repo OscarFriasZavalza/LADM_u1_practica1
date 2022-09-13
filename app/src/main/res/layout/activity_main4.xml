@@ -6,8 +6,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".MainActivity4">
+    tools:context=".MainActivity4"
+    android:background="@color/white">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="120dp"
@@ -22,13 +30,15 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/postre1" />
+            android:src="@drawable/postre1"
+            android:id="@+id/crepas"/>
 
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/postre2" />
+            android:src="@drawable/postre2"
+            android:id="@+id/wafles"/>
 
     </LinearLayout>
 
@@ -42,12 +52,15 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/postre3" />
+            android:src="@drawable/postre3"
+            android:id="@+id/cremedulce"
+            />
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/postre4" />
+            android:src="@drawable/postre4"
+            android:id="@+id/gelatina"/>
 
     </LinearLayout>
 
@@ -61,12 +74,15 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/postre5" />
+            android:src="@drawable/postre5"
+            android:id="@+id/cupcake"/>
+
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/postre6" />
+            android:src="@drawable/postre6"
+            android:id="@+id/rebanadapay"/>
 
     </LinearLayout>
 
@@ -80,12 +96,15 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/postre7" />
+            android:src="@drawable/postre7"
+            android:id="@+id/helado"/>
+
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/postre8" />
+            android:src="@drawable/postre8"
+            android:id="@+id/flan"/>
 
     </LinearLayout>
 
@@ -98,6 +117,8 @@
         android:backgroundTint="#005A5D61"
         android:layout_gravity="center_horizontal"
         />
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
 
