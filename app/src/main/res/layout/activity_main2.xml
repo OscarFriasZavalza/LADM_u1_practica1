@@ -6,13 +6,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity2"
+    android:background="@color/white">
 
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:src="@drawable/menuentrada3"/>
+        android:src="@drawable/menuentrada3"
+        android:id="@+id/sopa"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,7 +37,8 @@
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/entrada2" />
+            android:src="@drawable/entrada2"
+            android:id="@+id/ensalada"/>
 
     </LinearLayout>
 
@@ -43,12 +52,14 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/entrada3" />
+            android:src="@drawable/entrada3"
+            android:id="@+id/guacamole"/>
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/entrada4" />
+            android:src="@drawable/entrada4"
+            android:id="@+id/cremaelote"/>
 
     </LinearLayout>
 
@@ -62,12 +73,15 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/entrada5" />
+            android:src="@drawable/entrada5"
+            android:id="@+id/patecamaron"/>
+
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/entrada6" />
+            android:src="@drawable/entrada6"
+            android:id="@+id/pescar"/>
 
     </LinearLayout>
 
@@ -81,12 +95,14 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/entrada7" />
+            android:src="@drawable/entrada7"
+            android:id="@+id/rollosdejamon"/>
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/entrada8" />
+            android:src="@drawable/entrada8"
+            android:id="@+id/pan"/>
 
     </LinearLayout>
 
@@ -94,10 +110,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="ORDENAR"
+        android:text="Ver Orden"
         android:textColor="@color/black"
         android:backgroundTint="#005A5D61"
         android:layout_gravity="center_horizontal"
+        android:id="@+id/verorden"
         />
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
