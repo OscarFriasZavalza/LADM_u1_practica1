@@ -6,8 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".MainActivity5">
+    tools:context=".MainActivity5"
+    android:background="@color/white">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <ImageView
         android:layout_width="match_parent"
@@ -23,13 +27,15 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/bebida1" />
+            android:src="@drawable/bebida1"
+            android:id="@+id/whisky"/>
 
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/bebida2" />
+            android:src="@drawable/bebida2"
+            android:id="@+id/vodka"/>
 
     </LinearLayout>
 
@@ -43,12 +49,14 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/bebida3" />
+            android:src="@drawable/bebida3"
+            android:id="@+id/clericot"/>
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/bebida4" />
+            android:src="@drawable/bebida4"
+            android:id="@+id/vino"/>
 
     </LinearLayout>
 
@@ -62,12 +70,14 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/bebida5" />
+            android:src="@drawable/bebida5"
+            android:id="@+id/mojito"/>
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/bebida6" />
+            android:src="@drawable/bebida6"
+            android:id="@+id/limonada"/>
 
     </LinearLayout>
 
@@ -81,12 +91,14 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/bebida7" />
+            android:src="@drawable/bebida7"
+            android:id="@+id/cerveza"/>
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/bebida8" />
+            android:src="@drawable/bebida8"
+            android:id="@+id/refresco"/>
 
     </LinearLayout>
 
@@ -94,10 +106,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="ORDENAR"
+        android:text="VER ORDEN"
         android:textColor="@color/black"
         android:backgroundTint="#005A5D61"
         android:layout_gravity="center_horizontal"
+        android:id="@+id/orden2"
         />
+
+    </ScrollView>
 
 </LinearLayout>

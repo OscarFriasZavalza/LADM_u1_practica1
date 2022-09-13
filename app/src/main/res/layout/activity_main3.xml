@@ -6,8 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity3"
+    android:background="@color/white">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <ImageView
         android:layout_width="match_parent"
@@ -23,13 +27,15 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/fuerte1" />
+            android:src="@drawable/fuerte1"
+            android:id="@+id/pizza"/>
 
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/fuerte4" />
+            android:src="@drawable/fuerte4"
+            android:id="@+id/hamburguesa"/>
 
     </LinearLayout>
 
@@ -43,12 +49,14 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/fuerte3" />
+            android:src="@drawable/fuerte3"
+            android:id="@+id/camarones"/>
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/fuerte2" />
+            android:src="@drawable/fuerte2"
+            android:id="@+id/aguachile"/>
 
     </LinearLayout>
 
@@ -62,12 +70,14 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/fuerte5" />
+            android:src="@drawable/fuerte5"
+            android:id="@+id/carne"/>
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/fuerte6" />
+            android:src="@drawable/fuerte6"
+            android:id="@+id/pasta"/>
 
     </LinearLayout>
 
@@ -81,12 +91,14 @@
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
-            android:src="@drawable/fuerte7" />
+            android:src="@drawable/fuerte7"
+            android:id="@+id/pozole"/>
         <ImageView
             android:layout_width="190dp"
             android:layout_height="190dp"
             android:layout_marginLeft="15dp"
-            android:src="@drawable/fuerte8" />
+            android:src="@drawable/fuerte8"
+            android:id="@+id/enchiladas"/>
 
     </LinearLayout>
 
@@ -94,10 +106,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="ORDENAR"
+        android:text="VER ORDEN"
         android:textColor="@color/black"
         android:backgroundTint="#005A5D61"
         android:layout_gravity="center_horizontal"
+        android:id="@+id/ordenar"
         />
 
+    </ScrollView>
 </LinearLayout>
