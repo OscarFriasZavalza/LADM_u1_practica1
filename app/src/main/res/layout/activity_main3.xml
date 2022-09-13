@@ -1,35 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity3"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
     >
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#000"
-        android:text="Tipos de Platillos"
-        android:textColor="#fff"
-        android:textSize="30dp"
-        />
+        <ImageView
+            android:layout_width="109dp"
+            android:layout_height="111dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logocirculo" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
+        <ImageView
+            android:layout_width="415dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/entradas"
+            android:id="@+id/entradas"/>
 
-    <ListView
-        android:id="@+id/menu"
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:layout_marginTop="80dp"
-        android:entries="@array/opcionesmenuprincipal"
-        android:padding="15dp">
-<!--
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:foregroundGravity="left"
-            android:src="@drawable/logocirculo" />-->
-    </ListView>
+            android:src="@drawable/platofuerte"
+            android:layout_marginTop="-50dp"
+            android:id="@+id/platofuerte"
+            />
 
-</RelativeLayout>
+        <ImageView
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-50dp"
+            android:src="@drawable/postre"
+            android:id="@+id/postre"/>
+
+        <ImageView
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-50dp"
+            android:src="@drawable/bebidas"
+            android:id="@+id/bebidas"/>
+
+                </LinearLayout>
+        </ScrollView>
+
+
+</LinearLayout>
