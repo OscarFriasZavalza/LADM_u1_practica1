@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">LADM_U1_Practica1_DiseñoMenuPrincipal</string>
+
+    <array name="opcionesmenuprincipal">
+        <item>Guardar en Archivo</item>
+        <item>Leer desde Archivo</item>
+        <item>Acerca de</item>
+        <item>Salir</item>
+    </array>
 </resources>

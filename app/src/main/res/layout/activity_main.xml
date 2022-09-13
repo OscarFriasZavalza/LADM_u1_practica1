@@ -12,14 +12,13 @@
         android:layout_height="match_parent"
         android:src="@drawable/loginportada"
         android:scaleType="centerCrop"/>
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:background="#9C000000"
         android:gravity="center"
-        >
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="202dp"
@@ -27,81 +26,87 @@
             android:src="@drawable/logocirculo" />
 
         <EditText
-            android:layout_marginTop="20dp"
+            android:id="@+id/et_correo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/et_correo"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#000000"
             android:hint="Correo electrónico"
             android:inputType="textEmailAddress"
-            android:layout_marginBottom="15dp"
-            android:textColor="#fff"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:paddingLeft="20dp"
-            android:paddingRight="10dp"
             android:paddingTop="10dp"
+            android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColorHint="#ccc"
-            android:backgroundTint="#000000"/>
+            android:textColor="#fff"
+            android:textColorHint="#ccc" />
+
         <EditText
+            android:id="@+id/et_contrasena"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/et_contrasena"
-            android:hint="Contraseña"
-            android:layout_marginBottom="10dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
             android:paddingLeft="20dp"
-            android:paddingRight="10dp"
             android:paddingTop="10dp"
+            android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:textColorHint="#ccc"
             android:textColor="#fff"
-            android:inputType="textPassword"/>
+            android:textColorHint="#ccc" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#fff"
-            android:gravity="end"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="25dp"
             android:layout_marginBottom="30dp"
-            android:text="¿Olvidaste tu contraseña?"/>
+            android:gravity="end"
+            android:text="¿Olvidaste tu contraseña?"
+            android:textColor="#fff" />
+
         <Button
             android:id="@+id/iniciar_sesion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#3BFF9800"
+            android:elevation="5dp"
             android:text="Inciar sesión"
             android:textColor="#fff"
-            android:textSize="16sp"
-            android:elevation="5dp"
-            android:backgroundTint="#3BFF9800"/>
+            android:textSize="16sp" />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:gravity="center"
-            android:layout_height="wrap_content">
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="¿Aún no tienes cuenta?"
-                android:textSize="16sp"
                 android:textColor="#fff"
+                android:textSize="16sp"
                 />
+
             <Button
-                android:id="@+id/btn_ir_crearCuenta"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CREAR CUENTA"
-                android:background="@android:color/transparent"
                 android:layout_marginLeft="10dp"
-                android:textColor="#fff"/>
+                android:background="@android:color/transparent"
+                android:text="CREAR CUENTA"
+                android:textColor="#fff"
+                android:id="@+id/crearcuenta"/>
 
         </LinearLayout>
     </LinearLayout>
