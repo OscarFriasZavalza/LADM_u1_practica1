@@ -1,5 +1,6 @@
 package mx.edu.ittepic.ladm_u1_practica1_diseomenuprincipal
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -38,6 +39,11 @@ class MainActivity4 : AppCompatActivity() {
         binding.flan.setOnClickListener{
             guardarenarchivo("Flan Total a pagar $45")
         }
+        binding.ordenar.setOnClickListener {
+            var activityorden= Intent(this,MainActivity7::class.java)
+            startActivity(activityorden)
+        }
+
     }
     fun guardarenarchivo(mensaje:String){
         try {

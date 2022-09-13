@@ -3,6 +3,7 @@ package mx.edu.ittepic.ladm_u1_practica1_diseomenuprincipal
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AlertDialog
 import mx.edu.ittepic.ladm_u1_practica1_diseomenuprincipal.databinding.ActivityMain6Binding
 import mx.edu.ittepic.ladm_u1_practica1_diseomenuprincipal.databinding.ActivityMainBinding
 
@@ -33,5 +34,14 @@ class MainActivity6 : AppCompatActivity() {
             var activityBebidas=Intent(this,MainActivity5::class.java)
             startActivity(activityBebidas)
         }
+
+        binding.contacto.setOnClickListener {
+            AlertDialog.Builder(this)
+                .setTitle("Contactar a Restaurante Paola & Oscar")
+                .setMessage(" para reservaciones 3111477764")
+                .setNeutralButton("ok"){d,i->d.dismiss()}
+                .setNegativeButton("salir"){d,i ->d.cancel()}
+                .show()
+        }
+        }
     }
-}
