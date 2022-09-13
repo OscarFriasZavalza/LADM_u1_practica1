@@ -17,13 +17,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:src="@drawable/menuentrada3"
-        android:id="@+id/sopa"/>
 
-    <LinearLayout
+            <ImageView
+                android:id="@+id/sopa"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/menuentrada3" />
+
+            <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"

@@ -13,6 +13,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="120dp"
@@ -110,8 +115,9 @@
         android:textColor="@color/black"
         android:backgroundTint="#005A5D61"
         android:layout_gravity="center_horizontal"
-        android:id="@+id/orden2"
+        android:id="@+id/verorden"
         />
+        </LinearLayout>
 
     </ScrollView>
 

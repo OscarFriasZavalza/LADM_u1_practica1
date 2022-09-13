@@ -41,9 +41,9 @@ class MainActivity5 : AppCompatActivity() {
             guardarenarchivo("Refresco Total a pagar $20")
         }
 
-        binding.orden2.setOnClickListener {
-            var activityorden2= Intent(this,MainActivity7::class.java)
-            startActivity(activityorden2)
+        binding.verorden.setOnClickListener {
+            var activityveroreden=Intent(this,MainActivity7::class.java)
+            startActivity(activityveroreden)
         }
     }
 
